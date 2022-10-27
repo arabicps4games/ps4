@@ -1,9 +1,4 @@
-/*PS4 Interface Version 1.0.0
-  thanks to
-  https://codepen.io/Kapilnemo/pen/bwYoPZ
-  and
-  https://codepen.io/rstacruz/pen/oxJqNv
-*/
+
 
 $(document).ready(function(){
 		$(".gameText").hide();

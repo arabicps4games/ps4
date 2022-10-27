@@ -186,6 +186,16 @@ header div{
 	background-image: url("https://i.postimg.cc/8PQ5xhLw/outlast.png");
 }
 
+.browser{
+	background-image: url("browser.png");
+}
+
+.library{
+	background-image: url("library.png");
+}
+
+
+
 .storeGame{
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -387,3 +397,69 @@ header div{
     transform: scale(0,0) rotateZ(90deg);opacity:0
   }
 }
+
+/*librarygames****************************/
+
+.librarygames{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#overwatch{
+	background-image: url("https://i.postimg.cc/kX3QwRGP/overwatch.png");
+}
+
+#rocketLeague{
+	background-image: url("https://i.postimg.cc/sfkLSJhY/rl.png");
+}
+
+#cod{
+	background-image: url("https://i.postimg.cc/9F5G2TcL/cod.png");
+}
+
+#furi{
+	background-image: url("https://i.postimg.cc/dtcZTYk6/furi.png");
+}
+
+#youtube{
+	background-image: url("https://i.postimg.cc/L6KF3S10/yt.png");
+}
+
+#bro{
+	background-image: url("https://i.postimg.cc/Dykz0PJb/bro.png");
+}
+
+#outlast{
+	background-image: url("https://i.postimg.cc/8PQ5xhLw/outlast.png");
+}
+
+#browser{
+	background-image: url("browser.png");
+}
+
+/*store*/
+
+#librarygames{
+	padding: 1em;
+	padding-top: 6em;
+	margin-top: -3em;
+	width: 60em;
+	height: 25em;
+	padding-left: 12em;
+}
+
+#librarygames div{
+	float: left;
+	border: 3px solid rgba(245,245,245,1);
+	width: 12em;
+	height: 12em;
+	display: inline-block;
+}
+
+#librarygames div:hover{
+	transform: scale(1.1, 1.1);
+	box-shadow: 0px 5px 10px 3px rgba(45,45,45,.7);
+	transition: 0.3s ease;
+}
+*/
