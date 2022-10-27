@@ -15,15 +15,28 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
+
+	<audio loop autoplay >
+	<source src="ps4.mp3" type="audio/mp3">
+	</audio>
+
+
   <header>
 		<div id="plus"></div>
 		<div id="info"></div>
-		<div id="textInfo">Overwatch Update V 1.2.3</div>
+		<div id="textInfo">Game Updated</div>
 		<div id="friends"></div>
 		<div id="user"></div>
-		<div id="userName">Pixmy Sky</div>
+		<div id="userName"><a href="https://arabicps4games.github.io/a" target="_blank"><font color="white"><i>ArabicPs4Games</i></font></a></div>
 		<div id="trophies"></div>
-		<div id="clock">10:02 PM</div>
+		<div id="clock"><!-- 10:02 PM -->
+		<span id="datetime"></span>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script>
+		</div>
 	</header>
 
 
@@ -90,6 +103,10 @@
 	  <div class='wave -two'></div>
 	  <div class='wave -three'></div>
 	</div>
+
+		
+	
+
 </body>
 <!-- partial -->
   <script  src="./script.js"></script>

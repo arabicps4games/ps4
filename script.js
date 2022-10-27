@@ -44,17 +44,17 @@ $(document).ready(function(){
 	function timeout() {
 	    setTimeout(function () {
 	    	if(time===0){
-				$("#textInfo").text("Rocket League new content!");
+				$("#textInfo").text("New content Installed!");
 				$("#textInfo").addClass("animated slideInDown");
 				time++;
 			}else
 				if(time===1){
-				$("#textInfo").text("Outlast 2 Demo Downloaded");
+				$("#textInfo").text("Demo Downloaded");
 				$("#textInfo").addClass("animated slideInDown");
 				time++;
 			}else
 				if(time===2){
-				$("#textInfo").text("Overwatch Update V 1.2.3");
+				$("#textInfo").text("Trophy Earned!");
 				$("#textInfo").addClass("animated slideInDown");
 				time=0;
 			}
